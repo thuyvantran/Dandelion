@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font-family:Arial; background:#f2f2f2; font-size:12px;}
+/*CSS HEADER*/
+header{margin:0; padding:0; float:left; height:170px; background:#fff; width:100%}
+header .top-head{margin:0; padding:0; float:left; background:#f2f2f2; border-bottom:1px solid #e5e5e5; height:25px; width:100%}
+.top-head .fr{margin:0 auto; padding:0; height:25px; width:1100px;}
+.tb{ margin:0 3px; padding:4px 4px; float:right; font-size:12px; position:relative; height:17px}
+.tb a{text-decoration:none; color:#999999;}
+.tb a img{margin:0 2px; padding:0; float:left; max-width:16px; max-height:16px;}
+.tb ul.dk{margin:0; padding:0; position:absolute; width:120px; left:0; top:25px; border-left:1px solid #e5e5e5; border-right:1px solid #e5e5e5; background:#fff; display:none}
+.tb ul.dk li{list-style:none; border-bottom:1px solid #e5e5e5; float:left; width:112px; margin:0; padding: 3px 4px;}
+.tb ul.dk li a{color:#000;}
+
+.box-head{margin:0 auto; padding:0; width:1100px; height:170px; }
+.box-head img{margin:0; padding:0; float:left;}
+.box-head .search{margin:0; padding:20px 35px; width:500px; height:100px; float:left}
+.box-head .search form{margin:0; padding:0; float:left; border:2px solid #365db5; width:500px; height:35px; overflow:hidden}
+.box-head .search input{border:0; margin:0; padding:4px; float:left; width:400px; height:30px;}
+.box-head .search button{border:0; background:#365db5; margin:0; padding:5px; float:left; width:92px; height:35px; color:#fff; font-weight:bold}
+/*CSS BANNER*/
+.banner{margin:0; padding:0; float:left; width:100%; position:relative}
+.banner .box-bn{margin:0 auto; padding:0;width:1100px; position:relative; background:#fff;}
+.danhmuc{margin:0; padding:0;width:203px;}
+.banner .danhmuc p.title{margin:0; padding:6px; top:0;background:#365db5; color:#fff; font-weight:bold; float:left; width:191px; text-align:center}
+
+.banner .danhmuc ul.dmuc{margin:0; padding:0; width:203px; float:left; background:#fff; position:relative}
+.banner .danhmuc ul.dmuc li{margin:0; padding:0; width:201px; height:26px; float:left; list-style:none; border-bottom:1px solid #ccc;border-right:1px solid #ccc;;border-left:1px solid #ccc; font-size:12px;}
+.banner .danhmuc ul.dmuc li a{text-decoration:none; color:#000; width:162px; height:16px; float:left; margin:0; padding:5px 20px;
+background: -webkit-linear-gradient(top,#9cfcca 0, #02f776 100%)}
+.banner .danhmuc ul.dmuc li a:hover{
+background: -webkit-linear-gradient(top,#02f776 0, #9cfcca 100%);}
+.danhmuc ul li ul{ position:absolute; left:202px; z-index:1; border:1px solid #ccc; background:#fff; opacity:0.9; border-left:0; margin:0; padding:0;border-radius:0 4px 4px 0; display:none}
+.danhmuc ul li:hover>ul{display:block;}
+
+.mogianhang{margin:0; padding:0; float:right; position:absolute; top:-40px; right:0; width:200px; height:26px; }
+.mogianhang a{text-decoration:none; color:#fff;margin:0;}
+.mogianhang a .img{background:#039451; float:left; margin:0; padding:4px;border-radius:4px 0 0 4px; width:20px; height:20px}
+.mogianhang a .sp{background:#00ab51; padding:8px 4px; text-transform:uppercase; font-size:11px;margin:0; width:164px; height:12px; border-radius:0 4px 4px 0; float:right; text-align:center}
+
+/* CSS CONTENT*/
+
+/*SAN PHAM HOT NHAT*/
+.content{margin:0; padding:0; width:100%; float:left}
+.box-ct{margin:0 auto; padding:20px 0; width:1100px; height:384px}
+.title-ct{ margin:0; padding:10px 20px; width:1060px; height:14px; float:left;background:#fff;}
+.title-ct a{text-decoration:none; font-size:12px; color:#000; margin-right:20px;}
+.title-ct a.active{ font-weight:bold; color:#00F;}
+.box-ct ul.listsp{margin:0; padding:0; float:left; background:#fff;}
+.w1100{width:1100px;}
+.w660px{width:660px;}
+.box-ct ul.listsp li{margin:10px; padding:0; width:198px; height: 328px; float:left; list-style:none; border:1px solid #ccc}
+.hinhanh{ margin:0; padding:5px; width:188px; height:220px; float:left;;text-align:center}
+.hinhanh img.big{margin:0 auto; padding:0; max-width:180px; max-width:180px; float:left}
+.hinhanh ul.listanh{margin:3px 0; padding:0; float:left; width:188px; height:38px;}
+.hinhanh ul.listanh li{margin:0 2px; padding:3px 2px; width:30px ; height:30px ;list-style:none; display:inline; border:1px solid #ccc;}
+.hinhanh ul.listanh li img.small{margin:0; padding:0; float:left; max-width:28px; max-height:28px;}
+p.price{margin:5px; padding:5px; font-size:16px; color:#F00; font-weight:bold}
+p.tieude{margin:5px; padding:5px; height:27px; overflow:hidden; font-size:14px; font-weight:bold; color:#333}
+p.tieude a{ text-decoration:none; color:#333;}
+p.tieude a:hover{color:#03F;}
+/*SAN PHAM NOI BAT */
+.left{margin:0; padding:0; float:left; width:440px; height: 420px; background:#fff;}
+.left .td{margin:0; padding:0; float:left;width:100%; height:30px}
+.left .td h2{ margin:7px; padding:0; text-align:center;text-transform:uppercase; color:#fff; font-size:12px}
+.left .td img.img1{max-width:300px; max-height: 300px}
+.right{ margin:0; padding:0; float:right; width:660px; height:420px;}
+
+/*CSS DANH MUC CHI TIET*/
+.box{margin:0; padding:0; float:left; background:#fff; width:100%}
+.br{ margin:7px 0; padding:0; width:80%; height:1px; border-top:1px dotted #CCC}
+.box ul.dmucct{margin:0 auto; padding:0;width:1100px;}
+.box ul.dmucct li{margin:10px; padding:0; width: 200px; float:left; list-style:none;}
+.box ul.dmucct li a{text-decoration:none; color:#000; font-weight:bold;}
+.box ul.dmucct li a:hover{color:#06F;}
+.box ul.dmucct li ul{margin:0; padding:0; float:left;}
+.box ul.dmucct li ul li{margin:7px 0; padding:0; float:left}
+.box ul.dmucct li ul li a{font-weight:normal;}
+/*FOOTER*/
+footer{margin:0; padding:0; float:left; width:100%;}
+footer .boxft{margin:0 auto; padding:20px 0; width:1100px; height:50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
